@@ -7,8 +7,6 @@ I am a Data Analytics professional with expertise in **AWS Data Analytics Platfo
 ## 📂 Projects  
 
 ### 1. **AWS Data Analytics Platform for City of Vancouver**  
-**AWS Data Analytics Platform for City of Vancouver Pipeline Architecture** 
- Project part 1 & 2 .png
 **Overview:** Designed and implemented a data analytics solution leveraging AWS services for data processing, security, governance, and monitoring.  
 
 **Key Tasks:**  
