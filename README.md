@@ -16,7 +16,7 @@ I am a Data Analytics professional with expertise in **AWS Data Analytics Platfo
 
  **Data Profiling & Cleaning:**  
 - Used **AWS Glue Data Brew** for detecting missing values and inconsistencies.  
-- Cleaned data and stored it in an S3 bucket: `s3://counsel-vote-records-trf-har/voting-data/year/2025/`  
+- Cleaned data and stored it in an S3 bucket.  
 
  **Data Cataloging:**  
 - Created a **Glue Data Catalog** table for structured metadata.  
