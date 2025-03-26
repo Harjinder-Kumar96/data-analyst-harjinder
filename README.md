@@ -1,63 +1,110 @@
-# data-analyst-harjinder
-# Harjinder Kumar - Data Analytics Portfolio 
+#  AWS Data Analytics Platform - Harjinder Kumar
 
-## About Me  
-I am a Data Analytics professional with expertise in **AWS Data Analytics Platform (DAP)**, specializing in **data ingestion, profiling, cleaning, cataloging, security, governance, and monitoring**. This portfolio showcases my hands-on experience in designing, implementing, and optimizing cloud-based analytics solutions.
+##  Project Overview  
+This project showcases my contributions to building an **AWS-based Data Analytics Platform (DAP)** for the **City of Vancouver**. The platform enhances **data-driven decision-making** in **urban planning** and **resource management**.  
 
-## 📂 Projects  
+##  Key Contributions  
+ **Data Ingestion:** Set up AWS S3 for raw data storage.  
+ **Data Profiling:** Used AWS Glue DataBrew to detect anomalies.  
+ **Data Cleaning:** Standardized formats, removed duplicates.  
+ **Data Cataloging:** Created AWS Glue Data Catalog tables.  
+ **Data Summarization:** Generated insights using AWS Athena.  
+ **AWS Cost Estimation:** Evaluated operational costs with AWS Pricing Calculator.  
 
-### 1. **AWS Data Analytics Platform for City of Vancouver**  
-**Overview:** Designed and implemented a data analytics solution leveraging AWS services for data processing, security, governance, and monitoring.  
+##  Architecture Diagram  
 
-**Key Tasks:**  
- **Data Ingestion:**  
-- Created an **S3 bucket** for storing raw datasets.  
-- Set up an **AWS EC2 Instance** for a web interface to ingest data into S3.  
-
- **Data Profiling & Cleaning:**  
-- Used **AWS Glue Data Brew** for detecting missing values and inconsistencies.  
-- Cleaned data and stored it in an S3 bucket.  
-
- **Data Cataloging:**  
-- Created a **Glue Data Catalog** table for structured metadata.  
-- Validated data using **Amazon Athena** queries.  
-
- **Data Summarization & Reporting:**  
-- Used **ETL & aggregation queries** to generate insights.  
-- Visualized data using **AWS QuickSight** and stored reports in S3.  
-
-**Cost Estimation & Optimization:**  
-- Utilized **AWS Pricing Calculator** for estimating storage, compute, and visualization costs.  
-
-**Security & Governance:**  
-- Implemented **IAM roles, policies, KMS encryption**, and **AWS Lake Formation** for security.  
-- Configured **access control & auditing policies** to enforce governance.  
-
-**Monitoring & Logging:**  
-- Set up **AWS CloudWatch, AWS CloudTrail, and AWS Config** for real-time monitoring and compliance.  
-- Created **alerts & dashboards** to track system health and anomalies.  
+##  Technologies Used  
+- **AWS Services:** S3, EC2, Glue, Athena, QuickSight, IAM  
+- **Programming Languages:** Python, SQL  
+- **Tools:** AWS Glue DataBrew, AWS Pricing Calculator  
 
 ---
 
-##  Tech Stack & Tools  
-- **Cloud & Storage:** AWS S3, AWS EC2  
-- **Data Processing:** AWS Glue, AWS Glue Data Brew, Amazon Athena  
-- **Security & Governance:** AWS IAM, AWS KMS, AWS Lake Formation  
-- **Monitoring & Logging:** AWS CloudWatch, AWS CloudTrail, AWS Config  
-- **Visualization & Reporting:** AWS QuickSight, AWS Visual ETL  
-- **Cost Optimization:** AWS Pricing Calculator  
+##  Data Processing Steps  
+
+###  Step 1: Data Ingestion  
+ **Created an S3 Bucket** for storing raw datasets.  
+ **Uploaded data** using the AWS S3 web interface.  
+ **Set up EC2 Instance** to automate data ingestion.  
+
+
+###  Step 2: Data Profiling  
+ **Analyzed missing values, inconsistencies, and duplicate entries.**  
+ **Used AWS Glue DataBrew** for profiling.    
+
+### 🛠 Step 3: Data Cleaning  
+ **Standardized data formats (dates, text fields).**  
+ **Removed duplicate and corrupted records.**  
+ **Stored cleaned data in S3**   
+
+###  Step 4: Data Cataloging  
+ **Created AWS Glue Data Catalog** for structured metadata.  
+ **Validated data using Athena SQL queries.**    
+
+###  Step 5: Data Summarization  
+ **Executed Aggregation Queries (ETL) in Glue.**  
+ **Visualized data using AWS QuickSight Dashboards.**  
+ **Stored summarized reports in S3**  
 
 ---
 
-##  Key Insights & Learnings  
-- Optimized data workflows for **efficiency and cost-effectiveness**.  
-- Implemented **scalable security & governance** for sensitive datasets.  
-- Used **serverless query execution with Athena** to improve performance.  
-- Automated data ingestion, profiling, and reporting to **reduce manual effort**.  
+##  AWS Cost Estimation  
+| AWS Service  | Monthly Cost | Yearly Cost |
+|--------------|-------------|-------------|
+| **S3 Storage** | $15.00  | $180.00  |
+| **EC2 Instances** | $25.00  | $300.00  |
+| **AWS Glue Jobs** | $10.00  | $120.00  |
+| **Athena Queries** | $2.19  | $26.28  |
+| **QuickSight Dashboards** | $20.00  | $240.00  |
+| **Total Estimated Cost** | **$52.19**  | **$626.28**  |
+ 
+#  AWS Data Analytics Platform Part 2
+
+##  Key Contributions  
+ **Data Ingestion:** Set up AWS S3 for raw data storage.  
+ **Data Profiling:** Used AWS Glue DataBrew to detect anomalies.  
+ **Data Cleaning:** Standardized formats, removed duplicates.  
+ **Data Cataloging:** Created AWS Glue Data Catalog tables.  
+ **Data Summarization:** Generated insights using AWS Athena.  
+ **Data Security:** Implemented IAM policies and AWS KMS encryption.  
+ **Data Governance:** Managed access control via AWS Lake Formation.  
+ **Data Monitoring:** Set up AWS CloudWatch, CloudTrail, and Config.   
+---
+##  **Data Processing Steps**  
+
+###  Step 1: Data Analysis  
+ **Stored structured and unstructured data in Amazon S3**  
+ **Used AWS Glue for ETL processing**  
+ **Queried data using Amazon Athena**  
+ **Answered three business questions based on data analysis**    
+
+###  Step 2: Data Security  
+ **Implemented AWS IAM roles and policies for access control**  
+ **Enabled encryption at rest and in transit using AWS KMS**  
+ **Secured data governance using AWS Lake Formation**    
+
+### 🛡 Step 3: Data Governance  
+ **Configured AWS Lake Formation for metadata management**  
+ **Implemented fine-grained access policies**  
+ **Defined auditing capabilities to ensure compliance**   
+
+###  Step 4: Data Monitoring  
+ **Used AWS CloudWatch to monitor system health**  
+ **Enabled AWS CloudTrail to track user activity**  
+ **Set up AWS Config to track resource configurations**  
+ **Configured real-time anomaly alerts in CloudWatch**  
+---
+
+## 💰 **AWS Cost Estimation**  
+| AWS Service  | Monthly Cost | Yearly Cost |
+|--------------|-------------|-------------|
+| **S3 Storage** | $15.00  | $180.00  |
+| **EC2 Instances** | $25.00  | $300.00  |
+| **AWS Glue Jobs** | $10.00  | $120.00  |
+| **Athena Queries** | $2.19  | $26.28  |
+| **QuickSight Dashboards** | $20.00  | $240.00  |
+| **Total Estimated Cost** | **$52.19**  | **$626.28**  | 
 
 ---
 
-## 📞 Connect With Me  
-📧 Email: Harjinderkumar239@gmail.com   
-
-
+---
