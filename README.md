@@ -12,7 +12,7 @@ This project showcases my contributions to building an **AWS-based Data Analytic
  **AWS Cost Estimation:** Evaluated operational costs with AWS Pricing Calculator.  
 
 ##  Architecture Diagram  
-
+https://github.com/Harjinder-Kumar96/data-analyst-harjinder/blob/main/Project%20part%201%20%26%202%20portfolio.png
 ##  Technologies Used  
 - **AWS Services:** S3, EC2, Glue, Athena, QuickSight, IAM  
 - **Programming Languages:** Python, SQL  
