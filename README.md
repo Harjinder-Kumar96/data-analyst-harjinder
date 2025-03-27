@@ -33,7 +33,7 @@ This project showcases my contributions to building an **AWS-based Data Analytic
  **Analyzed missing values, inconsistencies, and duplicate entries.**  
  **Used AWS Glue DataBrew** for profiling.    
 
-### 🛠 Step 3: Data Cleaning  
+###  Step 3: Data Cleaning  
  **Standardized data formats (dates, text fields).**  
  **Removed duplicate and corrupted records.**  
  **Stored cleaned data in S3**   
