@@ -74,15 +74,5 @@ This project showcases my contributions to building an **AWS-based Data Analytic
  -Enabled AWS CloudTrail to track user activity  
  -Set up AWS Config to track resource configurations 
  -Configured real-time anomaly alerts in CloudWatch
- ##  AWS Cost Estimation  
-| AWS Service  | Monthly Cost | Yearly Cost |
-|--------------|-------------|-------------|
-| **S3 Storage** | $15.00  | $180.00  |
-| **EC2 Instances** | $25.00  | $300.00  |
-| **AWS Glue Jobs** | $10.00  | $120.00  |
-| **Athena Queries** | $2.19  | $26.28  |
-| **QuickSight Dashboards** | $20.00  | $240.00  |
-| **Total Estimated Cost** | **$52.19**  | **$626.28**  |
----
 
 ---
