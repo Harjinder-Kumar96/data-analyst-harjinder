@@ -3,13 +3,15 @@
 ##  Project Overview  
 This project showcases my contributions to building an **AWS-based Data Analytics Platform (DAP)** for the **City of Vancouver**. The platform enhances **data-driven decision-making** in **urban planning** and **resource management**.  
 
-##  Key Contributions  
- **Data Ingestion:** Set up AWS S3 for raw data storage.  
- **Data Profiling:** Used AWS Glue DataBrew to detect anomalies.  
- **Data Cleaning:** Standardized formats, removed duplicates.  
- **Data Cataloging:** Created AWS Glue Data Catalog tables.  
- **Data Summarization:** Generated insights using AWS Athena.  
- **AWS Cost Estimation:** Evaluated operational costs with AWS Pricing Calculator.  
+## ** Key Contributions**  
+- **Data Ingestion:** Set up AWS S3 for raw data storage.  
+- **Data Profiling:** Used AWS Glue DataBrew to detect anomalies.  
+- **Data Cleaning:** Standardized formats, removed duplicates.  
+- **Data Cataloging:** Created AWS Glue Data Catalog tables.  
+- **Data Summarization:** Generated insights using AWS Athena.  
+- **Data Security:** Implemented IAM policies and AWS KMS encryption.  
+- **Data Governance:** Managed access control via AWS Lake Formation.  
+- **Data Monitoring:** Set up AWS CloudWatch, CloudTrail, and Config.    
 
 ##  Architecture Diagram 
 ![image](https://github.com/user-attachments/assets/62f8017b-43ac-46df-a99c-929620e68059)
@@ -60,16 +62,6 @@ This project showcases my contributions to building an **AWS-based Data Analytic
 | **Total Estimated Cost** | **$52.19**  | **$626.28**  |
  
 #  AWS Data Analytics Platform Part 2
-
-## ** Key Contributions**  
-- **Data Ingestion:** Set up AWS S3 for raw data storage.  
-- **Data Profiling:** Used AWS Glue DataBrew to detect anomalies.  
-- **Data Cleaning:** Standardized formats, removed duplicates.  
-- **Data Cataloging:** Created AWS Glue Data Catalog tables.  
-- **Data Summarization:** Generated insights using AWS Athena.  
-- **Data Security:** Implemented IAM policies and AWS KMS encryption.  
-- **Data Governance:** Managed access control via AWS Lake Formation.  
-- **Data Monitoring:** Set up AWS CloudWatch, CloudTrail, and Config.  
 ---
 ##  **Data Processing Steps**  
 
